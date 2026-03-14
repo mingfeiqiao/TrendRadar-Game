@@ -193,6 +193,46 @@ rss:
       name: "VentureBeat Games"
       url: "https://venturebeat.com/games/feed/"
 
+    - id: "cozy-games-news"
+      name: "Cozy Gaming"
+      url: "https://cozy.games/feed"
+
+    - id: "indiegames"
+      name: "独立游戏手册"
+      url: "https://indiegamesplus.com/feed"
+
+    - id: "indiedb"
+      name: "IndieDB 独立游戏"
+      url: "https://www.indiedb.com/games/feed/rss.xml"
+
+    - id: "toucharcade"
+      name: "TouchArcade 手游"
+      url: "https://toucharcade.com/feed/"
+
+    - id: "pocket-gamer"
+      name: "Pocket Gamer 手游"
+      url: "https://www.pocketgamer.com/feed/"
+
+    - id: "siliconera"
+      name: "Siliconera 日系游戏"
+      url: "https://www.siliconera.com/feed/"
+
+    - id: "gonintendo"
+      name: "GoNintendo"
+      url: "https://gonintendo.com/feed"
+
+    - id: "nintendowire"
+      name: "Nintendo Wire"
+      url: "https://nintendowire.com/feed/"
+
+    - id: "gematsu"
+      name: "Gematsu 日系游戏"
+      url: "https://www.gematsu.com/feed"
+
+    - id: "rpgsite"
+      name: "RPGSite"
+      url: "https://www.rpgsite.net/rss/news"
+
 
 # ===============================================================
 # 4. 报告模式
