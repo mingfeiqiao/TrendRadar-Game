@@ -113,26 +113,85 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
+    - id: "kotaku"
+      name: "Kotaku"
+      url: "https://kotaku.com/rss"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
-     
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
+    - id: "vg247"
+      name: "VG247"
+      url: "https://www.vg247.com/feed"
 
-    # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
-    #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+    - id: "gamespot"
+      name: "GameSpot"
+      url: "https://www.gamespot.com/feeds/news/"
+
+    - id: "polygon"
+      name: "Polygon"
+      url: "https://www.polygon.com/rss/index.xml"
+
+    - id: "dualshockers"
+      name: "DualShockers"
+      url: "https://www.dualshockers.com/feed/"
+
+    - id: "gamesradar"
+      name: "GamesRadar"
+      url: "https://www.gamesradar.com/rss/"
+
+    - id: "thegamer"
+      name: "TheGamer"
+      url: "https://www.thegamer.com/feed/"
+
+    - id: "gamingbolt"
+      name: "GamingBolt"
+      url: "https://www.gamingbolt.com/feed"
+
+    - id: "gameinformer"
+      name: "Game Informer"
+      url: "https://www.gameinformer.com/rss"
+
+    - id: "pcgamesn"
+      name: "PCGamesN"
+      url: "https://www.pcgamesn.com/rss"
+
+    - id: "destructoid"
+      name: "Destructoid"
+      url: "https://www.destructoid.com/feed/"
+
+    - id: "gamereactor"
+      name: "Gamereactor"
+      url: "https://www.gamereactor.eu/rss/rss.php"
+
+    - id: "push-square"
+      name: "Push Square"
+      url: "https://www.pushsquare.com/feeds/latest"
+
+    - id: "nintendo-life"
+      name: "Nintendo Life"
+      url: "https://www.nintendolife.com/feeds/latest"
+
+    - id: "pure-xbox"
+      name: "Pure Xbox"
+      url: "https://www.purexbox.com/feeds/latest"
+
+    - id: "ign"
+      name: "IGN"
+      url: "https://www.ign.com/rss/articles/feed"
+
+    - id: "rock-paper-shotgun"
+      name: "Rock Paper Shotgun"
+      url: "https://www.rockpapershotgun.com/feed"
+
+    - id: "eurogamer"
+      name: "Eurogamer"
+      url: "https://www.eurogamer.net/?format=rss"
+
+    - id: "engadget-gaming"
+      name: "Engadget Gaming"
+      url: "https://www.engadget.com/gaming/rss.xml"
+
+    - id: "venturebeat-games"
+      name: "VentureBeat Games"
+      url: "https://venturebeat.com/games/feed/"
 
 
 # ===============================================================
@@ -164,7 +223,7 @@ report:
 
   rank_threshold: 5                   # 排名高亮阈值（影响展示强调，不改变抓取范围）
 
-  max_news_per_keyword: 0             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
+  max_news_per_keyword: 10             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
 
 
 # ===============================================================
