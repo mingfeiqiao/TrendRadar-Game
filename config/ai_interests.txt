@@ -1,20 +1,42 @@
-女性向游戏
-乙女游戏
-恋爱养成游戏
-治愈休闲游戏
-模拟经营游戏
-农场经营游戏
-Cozy games
+# Female-oriented games
+cozy game
+cozy games
+life simulation
+farming simulation
+dating sim
+otome game
+romance game
+casual game
+healing game
 
-以闪亮之名 / Infinity Nikki
-无限暖暖
-心动小镇 / My Time at Sandrock
-星露谷物语 / Stardew Valley
-动物森友会 / Animal Crossing
-恋与深空
-迪士尼梦幻星谷
+# Specific games
+Infinity Nikki
+Nikki
+My Time at Sandrock
+My Time at Portia
+Stardew Valley
+Animal Crossing
+Disney Dreamlight Valley
+Spiritfarer
+Coral Island
+Cozy Grove
+The Sims
+Love and Deepspace
 
-Nintendo Switch 新游戏
-独立游戏发售
-游戏更新 DLC
-日系游戏
+# Game topics of interest
+Nintendo Switch
+indie game
+indie games
+simulation game
+DLC
+update
+new release
+review
+announcement
+trailer
+
+# Publishers / Developers
+Papergames
+Pathea Games
+ConcernedApe
+Nintendo
