@@ -1032,8 +1032,6 @@ class NewsAnalyzer:
 
     def _crawl_data(self) -> Tuple[Dict, Dict, List]:
         """执行数据爬取"""
-        if not self.ctx.config["ENABLE_CRAWLER"]:
-            return {}, {}, []
         ids = []
         for platform in self.ctx.platforms:
             if "name" in platform:
